@@ -141,6 +141,14 @@ body.nav-active { overflow: hidden; }
   border-radius: 20px;
 }
 
+.myname{
+  display: flex;
+
+
+}
+.myname span{
+  color: white;
+}
 
 
 
@@ -640,45 +648,13 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
-.blog-list {
-  display: grid;
-  gap: 60px;
-}
-
-.blog-card {
-  display: grid;
-  gap: 40px;
-}
-
-.blog-card .card-content {
-  display: flex;
-  gap: 16px;
-  padding-inline: 16px;
-}
-
-.blog-card .time { font-size: var(--fs-7); }
-
-.blog-card .time .span {
-  color: var(--white);
-  font-weight: var(--fw-700);
-  line-height: 0.9;
-}
-
-.blog-card .card-text { margin-block: 20px; }
-
-
-
-
 
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
 
 .footer {
+  margin-top: 50px;
   background-color: var(--raisin-black);
   padding-block: 76px;
 }
