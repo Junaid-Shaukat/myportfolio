@@ -487,6 +487,7 @@ body.nav-active { overflow: hidden; }
   letter-spacing: 2px;
   line-height: 1.5em;
   margin-block: 10px 30px;
+  display: flex;
 }
 
 .hero-banner {
