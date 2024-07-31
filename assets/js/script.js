@@ -1,4 +1,11 @@
 'use strict';
+var typed = new Typed('#typing', {
+  strings: ['Full Stack Developer', 'Software Engineer','UI UX Designer'],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true
+});
+
 
 
 
